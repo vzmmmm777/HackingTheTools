@@ -31,20 +31,20 @@ print ("________________467935797error90347354289___________________")
 
 if result['usedtool'] == 'Nmap':
     os.system("")
-    os.system("python3 /home/guest/HackingTheSystem/modules/nmap.py")
-    os.system("python3 /usr/share/HackingTheSystem/modules/nmap.py")
+    os.system("python3 /home/guest/HackingTheSystem/nmap.py")
+    os.system("python3 /usr/share/HackingTheSystem/nmap.py")
 elif result['usedtool'] == 'Hydra':
-    os.system("python3 /home/guest/HackingTheSystem/modules/hydra.py")
-    os.system("python3 /usr/share/HackingTheSystem/modules/hydra.py")
+    os.system("python3 /home/guest/HackingTheSystem/hydra.py")
+    os.system("python3 /usr/share/HackingTheSystem/hydra.py")
 elif result['usedtool'] == 'Nikto':
-    os.system("python3 /home/guest/HackingTheSystem/modules/nikto.py")
-    os.system("python3 /usr/share/HackingTheSystem/modules/nikto.py")
+    os.system("python3 /home/guest/HackingTheSystem/nikto.py")
+    os.system("python3 /usr/share/HackingTheSystem/nikto.py")
 elif result['usedtool'] == 'John The Ripper':
-    os.system("python3 /home/guest/HackingTheSystem/modules/john.py")
-    os.system("python3 /usr/share/HackingTheSystem/modules/john.py")
+    os.system("python3 /home/guest/HackingTheSystem/john.py")
+    os.system("python3 /usr/share/HackingTheSystem/john.py")
 elif result['usedtool'] == 'Doxxing':
-    os.system("python3 /home/guest/HackingTheSystem/modules/doxxing.py")
-    os.system("python3 /usr/share/HackingTheSystem/modules/doxxing.py")
+    os.system("python3 /home/guest/HackingTheSystem/doxxing.py")
+    os.system("python3 /usr/share/HackingTheSystem/mdoxxing.py")
 
 
 
