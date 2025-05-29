@@ -8,10 +8,5 @@ tool on linux
 
 install tool
 
-git clone https://github.com/vzmmmm777/HackingTheSystem
-cd HackingTheSystem
-python3 setup.py
-pip install -r requirements.txt
-python3 start.py
 
 use tool!
