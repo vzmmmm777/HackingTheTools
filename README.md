@@ -10,7 +10,7 @@ tool on linux
 ```
 git clone
 cd HackingTheTools
-pip install -r requirements.txt
+pip install -r requirements.txt --break-system-packages
 python3 setup.py
 python3 start.py
 ```
