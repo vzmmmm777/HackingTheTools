@@ -6,7 +6,13 @@ tool on linux
 
 # Instruictions in archive instruictions.txt
 
-install tool
-
+# install tool in linux
+```
+git clone
+cd HackingTheTools
+pip install -r requirements.txt
+python3 setup.py
+python3 start.py
+```
 
 use tool!
