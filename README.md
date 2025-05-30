@@ -1,5 +1,6 @@
 # HackingTheSystem
-Use Tools: Hydra, John, Nmap, Nikto, Doxxing
+
+# Tools: Brute force, Doxxing, Search Vulnerability of site, Break Hash and Scanner Ports of site or IP Address
 
 # !!!purpose only educational!!!
 
