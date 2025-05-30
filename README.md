@@ -44,8 +44,7 @@ python3 start.py
 ```
 # instalation in A-SHELL
 ```
-pkg install pip
-pkg install python3
+pkg install python2
 pkg install git
 git clone https://github.com/vzmmmm777/HackingTheTools
 cd HackingTheTools
