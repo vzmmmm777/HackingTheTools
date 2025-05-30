@@ -13,8 +13,6 @@ Tools: Brute force, Doxxing, Search Vulnerability of site, Break Hash and Scanne
 tool on linux
 100% python
 
-# Instruictions in archive instruictions.txt
-
 # instalation in linux
 ```
 sudo apt install pip
