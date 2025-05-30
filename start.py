@@ -23,7 +23,7 @@ questions = [
 
 print (f"By:Vex77\n__________________________________________________________\n/                       By:Vex77")
 
-print ("By:Vex77)
+print ("By:discord:vex77, tiktok:vex77, instagram:vex772025")
 
 
 result = prompt(questions)
