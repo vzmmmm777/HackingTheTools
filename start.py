@@ -14,7 +14,7 @@ questions = [
     {
         "type": "list",
         "message": "choice a tool",
-        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "Doxxing"],
+        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "Doxxing-Name Completed Of Victim"],
         "name": "usedtool"
 
     }
@@ -48,7 +48,7 @@ elif result['usedtool'] == 'John The Ripper':
     os.system("python3 /home/guest/HackingTheTools/modules/john.py")
     os.system("python3 /usr/share/HackingTheTools/modules/john.py")
     os.system("cd modules && python3 john.py")
-elif result['usedtool'] == 'Doxxing':
+elif result['usedtool'] == 'Doxxing-Name Completed Of Victim':
     os.system("python3 /home/guest/HackingTheTools/modules/doxxing.py")
     os.system("python3 /usr/share/HackingTheTools/modules/doxxing.py")
     os.system("cd modules && python3 doxxing.py")
