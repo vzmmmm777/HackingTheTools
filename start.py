@@ -53,6 +53,7 @@ elif result['usedtool'] == 'Doxxing':
     os.system("python3 /usr/share/HackingTheToolsmdoxxing.py")
     os.system("python3 doxxing.py")
 
+# discord:vex77, tiktok:vex77, instagram:vex772025
 
 
 
