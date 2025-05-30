@@ -33,25 +33,25 @@ print ("________________467935797error90347354289___________________")
 
 
 if result['usedtool'] == 'Nmap':
-    os.system("python3 nmap.py")
-    os.system("python3 /home/guest/HackingTheTools/nmap.py")
-    os.system("python3 /usr/share/HackingTheTools/nmap.py")
+    os.system("cd modules && python3 nmap.py")
+    os.system("python3 /home/guest/HackingTheTools/modules/nmap.py")
+    os.system("python3 /usr/share/HackingTheTools/modules/nmap.py")
 elif result['usedtool'] == 'Hydra':
-    os.system("python3 /home/guest/HackingTheTools/hydra.py")
-    os.system("python3 /usr/share/HackingTheTools/hydra.py")
-    os.system("python3 hydra.py")
+    os.system("python3 /home/guest/HackingTheTools/modules/hydra.py")
+    os.system("python3 /usr/share/HackingTheTools/modules/hydra.py")
+    os.system("cd modules && python3 hydra.py")
 elif result['usedtool'] == 'Nikto':
-    os.system("python3 /home/guest/HackingTheTools/nikto.py")
-    os.system("python3 /usr/share/HackingTheTools/nikto.py")
-    os.system("python3 nikto.py")
+    os.system("python3 /home/guest/HackingTheTool/modules/nikto.py")
+    os.system("python3 /usr/share/HackingTheTools/modules/nikto.py")
+    os.system("cd modules && python3 nikto.py")
 elif result['usedtool'] == 'John The Ripper':
-    os.system("python3 /home/guest/HackingTheTools/john.py")
-    os.system("python3 /usr/share/HackingTheTools/john.py")
-    os.system("python3 john.py")
+    os.system("python3 /home/guest/HackingTheTools/modules/john.py")
+    os.system("python3 /usr/share/HackingTheTools/modules/john.py")
+    os.system("cd modules && python3 john.py")
 elif result['usedtool'] == 'Doxxing':
-    os.system("python3 /home/guest/HackingTheTools/doxxing.py")
-    os.system("python3 /usr/share/HackingTheToolsmdoxxing.py")
-    os.system("python3 doxxing.py")
+    os.system("python3 /home/guest/HackingTheTools/modules/doxxing.py")
+    os.system("python3 /usr/share/HackingTheTools/modules/doxxing.py")
+    os.system("cd modules && python3 doxxing.py")
 
 # discord:vex77, tiktok:vex77, instagram:vex772025
 
