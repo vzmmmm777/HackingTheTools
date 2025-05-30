@@ -3,9 +3,9 @@
 Tools: Brute force, Doxxing, Search Vulnerability of site, Break Hash and Scanner Ports of site or IP Address
 ```
 /_________________________________/
-/ **!!!not use tool for evil!!!**   /
+/ !!!not use tool for evil!!!   /
 /-------------------------------/
-/ **!!!purpose only educational!!!**/
+/ !!!purpose only educational!!!/
 /-------------------------------/
 /_________________________________/
 ```
