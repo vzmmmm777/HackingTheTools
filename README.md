@@ -1,6 +1,8 @@
 # HackingTheSystem
 Use Tools: Hydra, John, Nmap, Nikto, Doxxing
 
+# !!!purpose only educational!!!
+
 tool on linux
 100% python
 
