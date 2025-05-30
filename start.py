@@ -40,7 +40,7 @@ elif result['usedtool'] == 'Hydra':
     os.system("python3 /home/guest/HackingTheTools/hydra.py")
     os.system("python3 /usr/share/HackingTheTools/hydra.py")
     os.system("python3 hydra.py")
-elif result['usedtool'] == 'Nikto'
+elif result['usedtool'] == 'Nikto':
     os.system("python3 /home/guest/HackingTheTools/nikto.py")
     os.system("python3 /usr/share/HackingTheTools/nikto.py")
     os.system("python3 nikto.py")
