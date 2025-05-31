@@ -4,17 +4,20 @@ from InquirerPy import prompt
 import os
 import requests
 import requests
-
+os.system("apt update && apt upgrade")
+os.system("pkg update && pkg upgrade")
+os.system("apk update && apk update")
 os.system("sudo apt install figlet")
 os.system("pkg install figlet")
 os.system("apk add figlet")
+
 
 
 questions = [
     {
         "type": "list",
         "message": "choice a tool",
-        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "Doxxing-Name Completed Of Victim"],
+        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "__________", "Doxxing-Name Completed Of Victim", "Doxxing search all accounts of a victim"],
         "name": "usedtool"
 
     }
@@ -52,7 +55,10 @@ elif result['usedtool'] == 'Doxxing-Name Completed Of Victim':
     os.system("python3 /home/guest/HackingTheTools/modules/doxxing.py")
     os.system("python3 /usr/share/HackingTheTools/modules/doxxing.py")
     os.system("cd modules && python3 doxxing.py")
-
+elif result['usedtool'] == 'Doxxing search all accounts of a victim':
+    os.system("python3 /home/guest/HackingTheTools/modules/sherlock.py")
+    os.system("python3 /home/guest/HackingTheTools/modules/sherlock.py")
+    os.system("cd modules && python3 sherlock.py")
 # discord:vex77, tiktok:vex77, instagram:vex772025
 
 
