@@ -17,7 +17,7 @@ questions = [
     {
         "type": "list",
         "message": "choice a tool",
-        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "__________", "Doxxing-Name Completed Of Victim", "Doxxing search all accounts of a victim", "Access Remote A Server-Apache/2.4.46"],
+        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "__________", "Doxxing-Name Completed Of Victim", "Doxxing search all accounts of a victim", "Access Remote A Server Apache/2.4.46"],
         "name": "usedtool"
 
     }
