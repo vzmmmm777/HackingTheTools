@@ -9,6 +9,7 @@ os.system("apk update && apk update")
 os.system("sudo apt install figlet")
 os.system("pkg install figlet")
 os.system("apk add figlet")
+os.system("clear")
 
 
 
