@@ -1,6 +1,6 @@
-# HackingTheSystem 2.0.1
+# HackingTheSystem 3.0.1
 
-Tools: Brute force, Doxxing, Search Vulnerability of site, Break Hash and Scanner Ports of site or IP Address
+Tools: Brute force, Doxxing, Search Vulnerability of site, Break Hash and Scanner Ports of site or IP Address, Execute Exploits
 ```
 /_________________________________/
 / !!!not use tool for evil!!!   /
@@ -13,7 +13,7 @@ Tools: Brute force, Doxxing, Search Vulnerability of site, Break Hash and Scanne
 tool on linux
 100% python
 
-# instalation in linux
+# instalation in linux 
 ```
 sudo apt install pip
 sudo apt install python3
@@ -24,37 +24,9 @@ pip install -r requirements.txt --break-system-packages
 python3 setup.py
 python3 start.py
 ```
-
-# instalation in termux
-```
-pkg install pip
-pkg install python3
-pkg install git
-git clone https://github.com/vzmmmm777/HackingTheTools
-cd HackingTheTools
-pip install -r requirements.txt --break-system-packages
-python3 setup.py
-python3 start.py
-```
-# instalation in ISH SHELL
-```
-apk add pip
-apk add python3
-apk add git
-git clone https://github.com/vzmmmm777/HackingTheTools
-cd HackingTheTools
-pip install -r requirements.txt --break-system-packages
-python3 setup.py
-python3 start.py
-```
-# instalation in A-SHELL
-```
-pkg install python2
-pkg install git
-git clone https://github.com/vzmmmm777/HackingTheTools
-cd HackingTheTools
-pip install -r requirements.txt 
-python3 setup.py
-python3 start.py
-```
-use a tool!!!
+I am not responsible for anything done with this tool
+-----------------------------------------------------
+If it doesn't work, contact me on social media:
+Discord:vex77_
+Instagram:vex7722025
+tiktok:vex77
