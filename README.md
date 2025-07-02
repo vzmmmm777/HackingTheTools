@@ -23,6 +23,7 @@ sudo apt install python3
 sudo apt install git
 git clone https://github.com/vzmmmm777/HackingTheTools
 cd HackingTheTools
+pip3 install InquirePy --break-system-packages
 pip install -r requirements.txt --break-system-packages
 python3 setup.py
 python3 start.py
