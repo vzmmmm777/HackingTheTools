@@ -16,7 +16,7 @@ questions = [
     {
         "type": "list",
         "message": "choice a tool",
-        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "__________", "Doxxing-Name Completed Of Victim", "Doxxing search all accounts of a victim", "Access Remote A Server"],
+        "choices": ["Nmap", "Hydra", "Nikto", "John The Ripper", "__________", "Doxxing-Name Completed Of Victim", "Doxxing search all accounts of a victim", "Access Remote A Server-Apache/2.4.46"],
         "name": "usedtool"
 
     }
@@ -58,9 +58,9 @@ elif result['usedtool'] == 'Doxxing search all accounts of a victim':
     os.system("python3 /home/guest/HackingTheTools/modules/sherlock.py")
     os.system("python3 /home/guest/HackingTheTools/modules/sherlock.py")
     os.system("cd modules && python3 sherlock.py")
-elif result['usedtool'] == 'Access Remote A Server':
+elif result['usedtool'] == 'Access Remote A Server-Apache/2.4.46':
     os.system("python3 /home/guest/HackingTheTools/modules/exploit.py")
-    os.system("python3 /home/guest/HackingTheTools/modules/sherlock.py")
+    os.system("python3 /home/guest/HackingTheTools/modules/exploit.py")
     os.system("cd modules && python3 exploit.py")
 # discord:vex77, tiktok:vex77, instagram:vex772025
 
