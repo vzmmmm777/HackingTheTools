@@ -1,5 +1,7 @@
 # HackingTheSystem 3.0.1
 
+By:vex77
+
 Tools: Brute force, Doxxing, Search Vulnerability of site, Break Hash and Scanner Ports of site or IP Address, Execute Exploits
 ```
 /_________________________________/
@@ -15,6 +17,7 @@ tool on linux
 
 # instalation in linux 
 ```
+cd /usr/share
 sudo apt install pip
 sudo apt install python3
 sudo apt install git
@@ -30,3 +33,6 @@ If it doesn't work, contact me on social media:
 Discord:vex77_
 Instagram:vex7722025
 tiktok:vex77
+
+
+Thank you...
